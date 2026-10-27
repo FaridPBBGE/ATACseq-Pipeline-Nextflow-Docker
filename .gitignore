@@ -1,0 +1,27 @@
+# Exclude Nextflow work directories and log files
+.nextflow/
+.nextflow.log*
+work/
+
+# Exclude raw and intermediate sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.bw
+*.bigWig
+*.bed
+
+# Exclude genome index files
+*.bt2
+*.sa
+*.amb
+*.ann
+*.pac
+
+# Exclude OS metadata
+.DS_Store
+Thumbs.db
